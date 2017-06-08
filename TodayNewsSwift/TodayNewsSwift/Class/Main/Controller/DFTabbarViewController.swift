@@ -40,14 +40,20 @@ class DFTabbarViewController: UITabBarController {
         self.addChildViewController(nav)
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+//    //1.分析 NSArray 是一个闭包的返回值，而这是一个没有参数的闭包
+//    lazy var dataArray:NSArray = { [] }()
+//    //2.也可以写成这样 lazy var dataArray:NSArray = { return NSArray() }()
+//    
+//    //3.从plist文件加载
+//    lazy var dataArray:Array<XWWine> = {
+//        let winePath = NSBundle.mainBundle().pathForResource("wine.plist", ofType: nil)!
+//        let winesM = NSMutableArray(contentsOfFile: winePath);
+//        var tmpArray:Array<XWWine>! = []
+//        for tmpWineDict in winesM! {
+//            var wine:XWWine = XWWine.wineWithDict(tmpWineDict as! NSDictionary)
+//            tmpArray.append(wine)
+//        }
+//        print("我就运行一次")
+//        return tmpArray }()
 
 }

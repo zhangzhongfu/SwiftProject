@@ -15,6 +15,14 @@
 		2E5504E81EE7E54C00A7ECEB /* DFMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504E71EE7E54C00A7ECEB /* DFMineViewController.swift */; };
 		2E5504EA1EE7E5B000A7ECEB /* DFNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504E91EE7E5B000A7ECEB /* DFNavigationViewController.swift */; };
 		2E5504EC1EE7E93000A7ECEB /* TabbarItemConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E5504EB1EE7E93000A7ECEB /* TabbarItemConfig.plist */; };
+		2E5504EE1EE7EE1000A7ECEB /* DFBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504ED1EE7EE1000A7ECEB /* DFBaseModel.swift */; };
+		2E5504F01EE7EE3100A7ECEB /* DFNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504EF1EE7EE3100A7ECEB /* DFNewsModel.swift */; };
+		2E5504F21EE824C300A7ECEB /* DFBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504F11EE824C300A7ECEB /* DFBaseWebViewController.swift */; };
+		2E5504F41EE82F0F00A7ECEB /* WeakScriptMessageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504F31EE82F0F00A7ECEB /* WeakScriptMessageDelegate.swift */; };
+		2E5504F81EE832D900A7ECEB /* HttpRequestDataTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504F71EE832D900A7ECEB /* HttpRequestDataTool.swift */; };
+		2E5504FA1EE929D600A7ECEB /* BaseNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504F91EE929D600A7ECEB /* BaseNewsTableViewCell.swift */; };
+		2E5504FC1EE92E8200A7ECEB /* DFBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504FB1EE92E8200A7ECEB /* DFBaseTableViewCell.swift */; };
+		2E5504FE1EE934AA00A7ECEB /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5504FD1EE934AA00A7ECEB /* TestModel.swift */; };
 		2EF163541EE7DFE8003140D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF163531EE7DFE8003140D1 /* Assets.xcassets */; };
 		2EF163571EE7DFE8003140D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF163551EE7DFE8003140D1 /* LaunchScreen.storyboard */; };
 		2EF163621EE7DFE8003140D1 /* TodayNewsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF163611EE7DFE8003140D1 /* TodayNewsSwiftTests.swift */; };
@@ -48,6 +56,14 @@
 		2E5504E71EE7E54C00A7ECEB /* DFMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFMineViewController.swift; sourceTree = "<group>"; };
 		2E5504E91EE7E5B000A7ECEB /* DFNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFNavigationViewController.swift; sourceTree = "<group>"; };
 		2E5504EB1EE7E93000A7ECEB /* TabbarItemConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabbarItemConfig.plist; sourceTree = "<group>"; };
+		2E5504ED1EE7EE1000A7ECEB /* DFBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFBaseModel.swift; sourceTree = "<group>"; };
+		2E5504EF1EE7EE3100A7ECEB /* DFNewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFNewsModel.swift; sourceTree = "<group>"; };
+		2E5504F11EE824C300A7ECEB /* DFBaseWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFBaseWebViewController.swift; sourceTree = "<group>"; };
+		2E5504F31EE82F0F00A7ECEB /* WeakScriptMessageDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakScriptMessageDelegate.swift; sourceTree = "<group>"; };
+		2E5504F71EE832D900A7ECEB /* HttpRequestDataTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestDataTool.swift; sourceTree = "<group>"; };
+		2E5504F91EE929D600A7ECEB /* BaseNewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNewsTableViewCell.swift; sourceTree = "<group>"; };
+		2E5504FB1EE92E8200A7ECEB /* DFBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFBaseTableViewCell.swift; sourceTree = "<group>"; };
+		2E5504FD1EE934AA00A7ECEB /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		2EF163491EE7DFE8003140D1 /* TodayNewsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNewsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF163531EE7DFE8003140D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EF163561EE7DFE8003140D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,6 +107,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E5504F51EE832A900A7ECEB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2E5504F61EE832A900A7ECEB /* NetworkTool */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2E5504F61EE832A900A7ECEB /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				2E5504F71EE832D900A7ECEB /* HttpRequestDataTool.swift */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
 		2EF163401EE7DFE8003140D1 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +207,8 @@
 		2EF1637F1EE7E1A2003140D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E5504EF1EE7EE3100A7ECEB /* DFNewsModel.swift */,
+				2E5504FD1EE934AA00A7ECEB /* TestModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +216,7 @@
 		2EF163801EE7E1A2003140D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E5504F91EE929D600A7ECEB /* BaseNewsTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +226,7 @@
 			children = (
 				2EF163821EE7E1A2003140D1 /* Controller */,
 				2EF163831EE7E1A2003140D1 /* Model */,
+				2E5504F51EE832A900A7ECEB /* Tool */,
 				2EF163841EE7E1A2003140D1 /* Other */,
 				2EF163861EE7E1A2003140D1 /* View */,
 			);
@@ -204,6 +240,7 @@
 				2E5504DF1EE7E4BE00A7ECEB /* DFBaseViewController.swift */,
 				2E5504E91EE7E5B000A7ECEB /* DFNavigationViewController.swift */,
 				2E5504EB1EE7E93000A7ECEB /* TabbarItemConfig.plist */,
+				2E5504F11EE824C300A7ECEB /* DFBaseWebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -211,6 +248,8 @@
 		2EF163831EE7E1A2003140D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E5504ED1EE7EE1000A7ECEB /* DFBaseModel.swift */,
+				2E5504F31EE82F0F00A7ECEB /* WeakScriptMessageDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +265,7 @@
 		2EF163861EE7E1A2003140D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E5504FB1EE92E8200A7ECEB /* DFBaseTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -536,7 +576,15 @@
 				2EF163951EE7E34B003140D1 /* DFTabbarViewController.swift in Sources */,
 				2E5504E81EE7E54C00A7ECEB /* DFMineViewController.swift in Sources */,
 				2EF163931EE7E1A2003140D1 /* AppDelegate.swift in Sources */,
+				2E5504EE1EE7EE1000A7ECEB /* DFBaseModel.swift in Sources */,
+				2E5504FC1EE92E8200A7ECEB /* DFBaseTableViewCell.swift in Sources */,
 				2E5504E61EE7E53D00A7ECEB /* DFMicroNewsViewController.swift in Sources */,
+				2E5504F21EE824C300A7ECEB /* DFBaseWebViewController.swift in Sources */,
+				2E5504FA1EE929D600A7ECEB /* BaseNewsTableViewCell.swift in Sources */,
+				2E5504F41EE82F0F00A7ECEB /* WeakScriptMessageDelegate.swift in Sources */,
+				2E5504F01EE7EE3100A7ECEB /* DFNewsModel.swift in Sources */,
+				2E5504FE1EE934AA00A7ECEB /* TestModel.swift in Sources */,
+				2E5504F81EE832D900A7ECEB /* HttpRequestDataTool.swift in Sources */,
 				2E5504E01EE7E4BE00A7ECEB /* DFBaseViewController.swift in Sources */,
 				2E5504E41EE7E51000A7ECEB /* DFMovieViewController.swift in Sources */,
 				2E5504E21EE7E4FD00A7ECEB /* DFHomeViewController.swift in Sources */,
